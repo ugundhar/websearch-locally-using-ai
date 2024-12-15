@@ -1,0 +1,13 @@
+prefix=/Users/ugundhar/Desktop/ai austin/webasearch using local/vwebai
+exec_prefix=/Users/ugundhar/Desktop/ai austin/webasearch using local/vwebai
+libdir=/Users/ugundhar/Desktop/ai austin/webasearch using local/vwebai/lib
+sharedlibdir=/Users/ugundhar/Desktop/ai austin/webasearch using local/vwebai/lib
+includedir=/Users/ugundhar/Desktop/ai austin/webasearch using local/vwebai/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
